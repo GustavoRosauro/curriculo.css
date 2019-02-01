@@ -1,0 +1,97 @@
+.dados{
+    margin-top:5%;
+    width: 25%;
+    margin-left: 15%;
+    float: left;
+}
+body{
+    background-color:#58FAF4;
+}
+body h1{
+    width: 100%;
+    margin-top: -0.5%;
+    background-color: #0040FF;
+}
+
+.dados label{
+    font-size: 120%;
+    font-weight: bold;
+}
+.dados p{
+    font-style: oblique;
+}   
+body h1{
+    text-align: center;
+}
+.statisticas{
+    margin-top:2%;
+    height:50%;
+    width:80%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px 20px; 
+}
+.statisticas .JavaScript{
+ background-color:#0040FF;
+ border-radius: 20px 20px;
+ text-align: center; 
+ font-weight: bold;  
+}
+.statisticas .Angular{
+    width: 80%;
+    background-color:#0040FF;
+    border-radius: 20px 20px;
+    text-align: center; 
+ font-weight: bold;    
+   }
+.statisticas .Node{
+    width: 80%;
+    background-color:#0040FF;
+    border-radius: 20px 20px;
+    text-align: center; 
+ font-weight: bold;    
+   }
+   .statisticas .C{
+    background-color:#0040FF;
+    border-radius: 20px 20px;
+    text-align: center; 
+ font-weight: bold;    
+   }
+   .statisticas .html{
+       width: 90%;
+    background-color:#0040FF;
+    border-radius: 20px 20px;
+    text-align: center; 
+ font-weight: bold;    
+   }
+   .statisticas .css{
+    width: 90%;
+    background-color:#0040FF;
+    border-radius: 20px 20px;
+    text-align: center; 
+ font-weight: bold;    
+   }
+   .statisticas .jquery{
+    background-color:#0040FF;
+    border-radius: 20px 20px;
+    text-align: center; 
+ font-weight: bold;    
+   }
+body img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+@media only screen and (max-width:600px){
+    body img{
+        width: 40%;
+        height: 40%;
+        border-radius: 50%;
+    }
+    .dados{
+        width: 100%;
+        margin-top:5%;
+        margin-left: 15%;
+    }
+        
+}
